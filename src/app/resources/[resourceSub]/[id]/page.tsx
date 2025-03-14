@@ -76,7 +76,7 @@ export default function ArticleDetail({ params }: { params: { id: string } }) {
     return (
         <div className="container mx-auto px-8 flex gap-8">
             <div className="flex-1 max-w-[900px] py-10">
-                <div className="flex items-center justify-between bg-white p-4 w-full rounded-lg shadow-sm">
+                <div className="flex items-center justify-between bg-white p-4 w-full rounded-lg">
                     <div className="flex items-center space-x-3">
                         <Image
                             src="/images/foso_logo.png"
