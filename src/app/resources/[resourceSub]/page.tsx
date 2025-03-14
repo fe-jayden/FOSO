@@ -13,7 +13,7 @@ export default function ResourceSubPage({ params }: { params: { resourceSub: str
     blog: <Blog />,
     guides: <Guides />,
   };
-  const page = mapPages[params.resourceSub];
+  const page = mapPages?.[params?.resourceSub];
   if (!page) {
     notFound();
   }
